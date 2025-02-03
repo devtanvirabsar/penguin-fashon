@@ -6,4 +6,16 @@ module.exports = {
       // themes: ["light"],
     },
   };
+  module.exports = {
+    theme: {
+      extend: {
+        colors: {
+          'custom-start': 'rgb(164, 188, 70)',
+          'custom-end': 'rgb(133, 160, 25)',
+        },
+      },
+    },
+    variants: {},
+    plugins: [],
+  };
   
